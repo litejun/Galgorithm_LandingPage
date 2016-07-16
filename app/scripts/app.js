@@ -13,7 +13,8 @@ angular
     'ngCookies',
     'ngResource',
     'ngRoute',
-    'ngSanitize'
+    'ngSanitize',
+	'ui.sortable'
   ])
   .config(function ($routeProvider) {
     $routeProvider
