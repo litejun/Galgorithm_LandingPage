@@ -13,6 +13,8 @@ body {
 
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	background-color:#222;
+	color: #9d9d9d;
 }
 
 .img-portfolio {
@@ -67,6 +69,13 @@ header.carousel .fill {
     font-style: italic;
 }
 
+/* form style */
+.recommendation_form {
+	height: 350px;
+	width: 200px;
+	margin: auto;
+}
+
 /* Footer Styles */
 
 footer {
@@ -90,4 +99,13 @@ footer {
     header.carousel .carousel {
         height: 70%;
     }
+}
+
+.page-header2 {
+	color: #888888;
+	border-bottom: 1px solid #888888;
+}
+
+#information {
+	margin-top: 200px;
 }
